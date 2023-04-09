@@ -28,4 +28,7 @@ jobs:
       - run: mvn --batch-mode --update-snapshots install
       - name: java version
         run: java -version
+      - run: docker build -t test:1   /home/runner/work/springboot-hello/
+      - run: docker images ls
+        
         
