@@ -1,0 +1,12 @@
+name: Second Flow
+on:
+  workflow_dispatch
+jobs:
+  second-job:
+    runs-on:
+      - ubuntu-latest
+    steps:
+      - name: checkout
+        run: actions/checkout@v2
+      - name: display
+        run: echo "hello:"
