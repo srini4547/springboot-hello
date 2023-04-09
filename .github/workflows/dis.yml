@@ -16,7 +16,7 @@ jobs:
         run: zip -r springboot-hello.zip /home/runner/work/springboot-hello/
       - name: lication of zip
         run: |
-            updatedb
+            echo "location of zip:"
             locate springboot-hello.zip
         
         
