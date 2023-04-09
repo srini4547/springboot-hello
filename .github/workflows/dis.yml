@@ -7,6 +7,6 @@ jobs:
       - ubuntu-latest
     steps:
       - name: checkout
-        run: actions/checkout@v3
+        uses: actions/checkout@v3
       - name: display
         run: echo "hello:"
