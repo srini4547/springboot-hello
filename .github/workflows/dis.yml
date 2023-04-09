@@ -17,6 +17,6 @@ jobs:
       - name: lication of zip
         run: |
             echo "location of zip:"
-            locate springboot-hello.zip
+            find . -type f -name springboot-hello.zip
         
         
