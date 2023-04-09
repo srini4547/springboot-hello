@@ -25,7 +25,7 @@ jobs:
         with:
          java-version: 11
          distribution: 'temurin'
-      - run: mvn --batch-mode --update-snapshots verify
+      - run: mvn --batch-mode --update-snapshots install
       - name: java version
         run: java -version
         
