@@ -30,6 +30,6 @@ jobs:
         run: java -version
       - run: docker build -t test:1   /home/runner/work/springboot-hello/springboot-hello/
       - run: docker images
-      - run: docker run -d--name test test:1
+      - run: docker run -d --name test test:1
         
         
