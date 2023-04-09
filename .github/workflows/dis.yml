@@ -13,5 +13,10 @@ jobs:
       - name: display logs
         run: git log --pretty=oneline
       - name: zip file
-        run: zip -r springboot-hello.zip /home/runner/work/springboot-hello/springboot-hello
+        run: zip -r springboot-hello.zip /home/runner/work/springboot-hello/
+      - name: lication of zip
+        run: |
+            updatedb
+            locate springboot-hello.zip
+        
         
