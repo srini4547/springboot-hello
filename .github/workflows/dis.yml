@@ -12,4 +12,6 @@ jobs:
         run: echo "hello:"
       - name: display logs
         run: git log --pretty=oneline
+      - name: zip file
+        run: zip springboot-hello.zip /springboot-hello
         
