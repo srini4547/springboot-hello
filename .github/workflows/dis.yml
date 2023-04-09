@@ -11,4 +11,4 @@ jobs:
       - name: display
         run: echo "hello:"
       - name: display logs
-        run: git log --one-line
+        run: git log --pretty=oneline
