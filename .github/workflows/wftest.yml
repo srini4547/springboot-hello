@@ -1,9 +1,9 @@
-name: Github actions
-
+name: First workflow
 on:
   workflow_dispatch
-job:
-  runs-on: ubuntu-latest
-    steps: display
-      -name: display test
-       run : echo "test"
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: display
+        run : echo "disply"
