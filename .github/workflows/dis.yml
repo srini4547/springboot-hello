@@ -20,4 +20,10 @@ jobs:
             find . -type f -name springboot-hello.zip
             pwd
             ls -l ./springboot-hello.zip
+      - name: set up java
+        uses: actions/setup-java@v3
+        with:
+         java-version: 11
+      - name: java version
+        run: java -version
         
